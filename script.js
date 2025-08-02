@@ -38,10 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
       feedbackDiv.textContent = "Registration successful!";
       feedbackDiv.style.color = "#28a745"; // Success green
     } else {
-      feedbackDiv.innerHTML = messages.join("
-");
+      feedbackDiv.innerHTML = messages.join("<br>");
       feedbackDiv.style.color = "#dc3545"; // Error red
     }
   });
 });
- 
